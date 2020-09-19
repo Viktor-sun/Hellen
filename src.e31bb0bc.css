@@ -670,7 +670,14 @@ a {
     margin: 0;
   }
 }
-@media (min-width: 1316px) {
+@media screen and (min-width: 1317px) and (max-width: 1500px) {
+  .hero-img {
+    max-width: 50%;
+    height: 100%;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1501px) {
   .hero-img {
     max-width: 732px;
     height: 100%;
@@ -832,7 +839,12 @@ a {
     max-width: 290px;
   }
 }
-@media (min-width: 1316px) {
+@media screen and (min-width: 1316px) and (max-width: 1500px) {
+  .hero-text-wrap {
+    width: 650px;
+  }
+}
+@media screen and (min-width: 1501px) {
   .hero-text-wrap {
     width: 50%;
   }
@@ -861,8 +873,15 @@ a {
   .problems {
     padding-top: 100px;
     background-image: url(/campfire.dd721c90.svg), linear-gradient(#111518 0%, #111518 100%);
+    background-size: 100% 40%, 100% 560px;
+    background-position: left 650px bottom 154px, top;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .problems {
+    background-image: url(/campfire.dd721c90.svg), linear-gradient(#111518 0%, #111518 100%);
     background-size: 100% 445px, 100% 560px;
-    background-position: left 660px bottom 152px, top;
+    background-position: left 660px bottom 154px, top;
   }
 }
 .problems .problems-title {
