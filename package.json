@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Yuliia-Gorgodze.github.io/Hellen-English",
+  "homepage": "https://Viktor-sun.github.io/Hellen",
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html",
-    "predeploy": "npm run build -- --public-url=/Hellen-English/",
+    "predeploy": "npm run build -- --public-url=/Hellen/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
